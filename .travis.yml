@@ -1,0 +1,10 @@
+language: cpp
+
+compiler:
+        - gcc
+
+install:
+        - .travis_scripts/gcc.sh
+
+script: 
+        - gcc --version
